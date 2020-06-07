@@ -1,0 +1,7 @@
+﻿  stdafx.cpp
+  ConsoleApplication4.cpp
+c:\users\hp\source\repos\consoleapplication4\consoleapplication4\consoleapplication4.cpp(17): warning C4326: “wmain”的返回类型应为“int”而非“void”
+  正在生成代码
+  All 6 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  ConsoleApplication4.vcxproj -> C:\Users\hp\source\repos\ConsoleApplication4\Release\ConsoleApplication4.exe

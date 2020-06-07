@@ -1,0 +1,24 @@
+from openresty/openresty:trusty
+
+copy image.lua /usr/local/openresty
+copy nginx.conf /usr/local/openresty/nginx/conf/nginx.conf
+copy www/* /usr/local/openresty/nginx/html/
+
+RUN mv /usr/local/openresty/nginx/html/flag.sh / && \
+    chmod +x /flag.sh
+
+RUN apt update \
+&& echo 'Y' | apt-get install vim wget libreadline-dev libncurses5-dev libpcre3-dev libssl-dev perl graphicsmagick
+
+RUN cd /usr/local \
+&& curl -R -O http://www.lua.org/ftp/lua-5.3.4.tar.gz \
+&& tar zxf lua-5.3.4.tar.gz \
+&& cd lua-5.3.4 \
+&& sudo make linux test \
+&& sudo make install 
+
+RUN mkdir /var/log/nginx/ \ 
+&& touch /var/log/nginx/error.log /var/log/nginx/access.log \
+&& chmod 733 /var/log/nginx/*
+
+ENTRYPOINT /flag.sh && /usr/local/openresty/bin/openresty -g 'daemon off;'

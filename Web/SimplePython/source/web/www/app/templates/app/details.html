@@ -1,0 +1,12 @@
+{% extends "app/base.html" %}
+
+{% block title %}{{ name }} - profile {% endblock %}
+
+{% block content %}
+    <h1>{{ name }} - Details</h1>
+    <p>username: {{ username }}</p>
+    <p>profile: {{ profile }}</p>
+    <p>age: {{ context.age }}</p>
+    <p><a class="btn btn-danger" href="{% url 'logout' %}">Log out</a></p>
+
+{% endblock %}

@@ -1,0 +1,7 @@
+- 图片备注
+- outguess
+- png 末尾隐藏文件
+- zip 伪密码
+- VirtualDub 及插件 MSUStegoVideo 的使用
+  - VirtualDub： http://virtualdub2.com/
+  - MSUStegoVideo： http://www.compression.ru/video/stego_video/src/msu_stegovideo.zip

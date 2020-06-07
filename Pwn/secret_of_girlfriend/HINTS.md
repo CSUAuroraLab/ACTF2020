@@ -1,0 +1,1 @@
+Hope the relationship between you and your girlfriend will not be smashed.

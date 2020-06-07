@@ -1,0 +1,15 @@
+version: "3"
+services:
+  server:
+    build: ./server
+    volumes:
+      - /root/web-zhang:/web1
+    container_name: xg0f0200015-server
+  web:
+    build: ./web
+    ports:
+      - "22205:80"
+    links:
+      - server
+    depends_on:
+      - server

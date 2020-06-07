@@ -1,0 +1,6 @@
+version: '3'
+services:
+ php:
+   build: ./web
+   ports:
+    - "40080:80"

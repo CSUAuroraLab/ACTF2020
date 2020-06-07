@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: fenghlz/upup
+    ports:
+      - "127.0.0.1:22205:80"
+    environment:
+      - FLAG=flag{Aurora}

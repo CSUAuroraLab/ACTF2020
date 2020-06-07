@@ -1,0 +1,27 @@
+{% extends "app/base.html" %}
+
+{% block title %}{{ name }}{% endblock %}
+
+{% block content %}
+    <h1>{{ name }}</h1>
+    <form method="post" action=".">
+        <div class="form-group">
+            <label>
+                用户名：<input type="text" class="form-control" name="username">
+            </label>
+        </div>
+        <div class="form-group">
+            <label>
+                年龄：<input type="text" class="form-control" name="age">
+            </label>
+        </div>
+        {% csrf_token %}
+        <div class="form-group">
+            <label>
+                密码：<input type="password" class="form-control" name="password">
+            </label>
+        </div>
+        <button type="submit" class="btn btn-primary">登录</button>
+    </form>
+    <br>
+{% endblock %}

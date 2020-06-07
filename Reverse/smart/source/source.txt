@@ -1,0 +1,18 @@
+pragma solidity ^0.4.25;
+
+contract easyContract{
+
+    
+    function getflag() public pure returns (bytes){
+        bytes32 seed=0xadafb8aab7a9adffb593ada2a893bfb8b9bcfda893affca2b8bea3adafb8b8b1;
+        bytes memory flag=new bytes(seed.length);
+        uint i;
+        
+        for(i=0;i<seed.length;i++){
+            flag[i]=seed[i]^0xcc;
+        }
+        
+        return flag;
+    }
+
+}

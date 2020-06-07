@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+
+  pwn:
+    build: .
+    image: treebacker/actfPwn
+    ports:
+      - "127.0.0.1:8302:10000"
+    environment:
+      - FLAG=flag{Aurora}

@@ -1,0 +1,3 @@
+- 对 Windows 图形化界面窗口及消息机制的了解
+- 初衷是希望选手使用 PostMessageA 或 SendMessageA 接口来编程
+- 加了个壳求各位好哥哥不要做成逆向题 QAQ

@@ -1,0 +1,2 @@
+D:\ctf\ACTF2020\Reverse\easylogin\source\EasyLogin\x64\Debug\EasyLogin.exe
+D:\ctf\ACTF2020\Reverse\easylogin\source\EasyLogin\x64\Debug\EasyLogin.pdb

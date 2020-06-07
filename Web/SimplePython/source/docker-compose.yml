@@ -1,0 +1,26 @@
+version: "3"
+services:
+
+  db:
+    build: ./postgres
+    environment:
+      - POSTGRES_USER=mote
+      - POSTGRES_PASSWORD=Mote!@#_A
+      - POSTGRES_DB=web1
+
+  web:
+    build: ./web
+    command:
+      - /bin/sh
+      - -c
+      - |
+        sleep 8
+        python manage.py makemigrations
+        python manage.py migrate
+        python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "22210:8000"
+    depends_on:
+      - db
+    links:
+      - db

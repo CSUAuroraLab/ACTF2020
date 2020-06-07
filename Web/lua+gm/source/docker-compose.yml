@@ -1,0 +1,9 @@
+version: '2'
+services:
+ lua:
+   build: .
+   image: ling/lua
+   ports:
+      - "127.0.0.1:22001:80"
+   environment:
+      - FLAG=flag{Aurora}
