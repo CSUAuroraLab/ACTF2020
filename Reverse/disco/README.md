@@ -10,8 +10,6 @@
 
 由外至里：
 
-+ upx 壳
-+ smc
 + PE Loader
 + FlowerCode
 + smc
