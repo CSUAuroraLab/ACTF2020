@@ -60,7 +60,7 @@
 | [WAF++](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/WAF++) | [github](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/WAF++/solution) |Mote | 1000 | -- |
 | [lua+gm](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/lua+gm) | [github](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/lua+gm/solution) |Lhaihai | 991 | 2 |
 | [glotozz-ezjs](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/glotozz-ezjs) | [github](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/glotozz-ezjs/solution) |ZJNU | 1000 | 1 |
-| [up up](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/up%20up) | [github](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/up up/solution) |[FengHLZ](https://www.fenghlz.xyz/) | 991 | 2 |
+| [up up](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/up%20up) | [github](https://github.com/CSUAuroraLab/ACTF2020/tree/master//Web/up%20up/solution) |[FengHLZ](https://www.fenghlz.xyz/) | 991 | 2 |
 
 
 
